@@ -26,7 +26,6 @@ client.on("messageCreate", (message) => {
         message.reply("The password is " + streamPASS)
     }
 
-
 })
 
 // Adding Welcome Message to the server
