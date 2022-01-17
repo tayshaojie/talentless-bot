@@ -26,6 +26,16 @@ client.on("messageCreate", (message) => {
         message.reply("The password is " + streamPASS)
     }
 
+
+
+    // help command
+    if (message.content == "t!help"){
+        message.reply(
+            // "t!pw - for the stream password\n
+            // t!gs - for fribbles gearscore calculator\n
+            // ")
+    }
+
 })
 
 // Adding Welcome Message to the server
